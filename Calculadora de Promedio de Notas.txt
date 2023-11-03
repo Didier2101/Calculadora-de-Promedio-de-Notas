@@ -1,0 +1,11 @@
+Ejercicio: Calculadora de Promedio de Notas
+
+Crea un programa que permita calcular el promedio de notas de un estudiante. El programa debe cumplir con los siguientes requisitos:
+
+1.	Solicita al usuario el nombre del estudiante y la cantidad de notas que desea ingresar.
+2.	Utiliza un bucle for para recopilar las notas de cada materia.
+3.	Almacena las notas en un array asociativo (objeto) donde la clave será el nombre de la materia y el valor será la nota.
+4.	Calcula el promedio de las notas y muestra el resultado al usuario.
+5.	Muestra un mensaje indicando si el estudiante aprobó (promedio mayor o igual a 7) o no aprobó (promedio menor a 7).
+
+Asegúrate de utilizar buenas prácticas de codificación, como la nomenclatura Camel Case, comentarios descriptivos y funciones si es necesario. Este ejercicio te permitirá aplicar los conceptos aprendidos de manera práctica. ¡Diviértete programando!
