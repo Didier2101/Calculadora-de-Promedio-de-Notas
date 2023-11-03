@@ -5,7 +5,7 @@ let notas = {};
 
 for (let i = 0; i < cantidadNotas; i++) {
     var materia = prompt('Ingresa el nombre de la materia');
-    var nota = parseInt(prompt('Ingresa la nota' + materia + ':'));
+    var nota = parseInt(prompt(`Ingresa la nota ${materia}:`));
     notas[materia] = nota;
 }
 
@@ -15,13 +15,13 @@ for (const materia in notas) {
 }
 var promedio = sumaNotas / cantidadNotas;
 
-console.log("Nombre del estudiante: " + nombreEstudiante);
-console.log("Notas ingresadas: " + cantidadNotas);
+console.log(`Nombre del estudiante: ${nombreEstudiante}`);
+console.log(`Notas ingresadas: ${cantidadNotas}`);
 for (var materia in notas) {
-    console.log(materia + ": " + notas[materia]);
+    console.log(`${materia} : ${notas[materia]}`);
 }
 
-console.log("Promedio de notas: " + promedio);
+console.log(`Promedio de notas: ${promedio}`);
 
 if (promedio >= 7) {
     console.log("El estudiante ha aprobado.");
